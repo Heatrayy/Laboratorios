@@ -1,0 +1,80 @@
+using System;
+using System.Collections.Generic;
+
+namespace L14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double[] notas1 = { 70, 65, 80 };
+            double[] notas2 = { 55, 60, 58 };
+
+            Estudiante est1 = new Estudiante("Ana Castillo", 17, "Tercero Básico", notas1);
+            Estudiante est2 = new Estudiante("Carlos Diaz", 17, "Cuarto Bachillerato", notas2);
+
+            est1.MostrarInformacion();
+            Console.WriteLine("¿Aprobó?: " + est1.Aprobar() + "\n");
+
+            est2.MostrarInformacion();
+            Console.WriteLine("¿Aprobó?: " + est2.Aprobar() + "\n");
+
+            Console.WriteLine("AGREGANDO NUEVA NOTA A CARLOS\n");
+            est2.AgregarNota(75);
+            est2.MostrarInformacion();
+            Console.WriteLine("¿Aprobó ahora?: " + est2.Aprobar());
+
+            Console.ReadKey();
+        }
+    }
+
+    class Estudiante
+    {
+        public string Nombre { get; set; }
+        public int Edad { get; set; }
+        public string Grado { get; set; }
+        public List<double> Notas { get; set; }
+
+        public Estudiante(string nombre, int edad, string grado, double[] notas)
+        {
+            Nombre = nombre;
+            Edad = edad;
+            Grado = grado;
+            Notas = new List<double>(notas);
+        }
+
+        public double CalcularPromedio()
+        {
+            double suma = 0;
+            foreach (double nota in Notas)
+            {
+                suma += nota;
+            }
+            return suma / Notas.Count;
+        }
+
+        public void MostrarInformacion()
+        {
+            Console.WriteLine($"Nombre: {Nombre}");
+            Console.WriteLine($"Edad: {Edad}");
+            Console.WriteLine($"Grado: {Grado}");
+            Console.WriteLine("Notas:");
+            foreach (double nota in Notas)
+            {
+                Console.WriteLine($"- {nota}");
+            }
+            Console.WriteLine($"Promedio: {CalcularPromedio():0.00}");
+        }
+
+        public string Aprobar()
+        {
+            return CalcularPromedio() >= 61 ? "Sí" : "No";
+        }
+
+        public void AgregarNota(double nuevaNota)
+        {
+            Notas.Add(nuevaNota);
+            Console.WriteLine("Nota agregada correctamente.\n");
+        }
+    }
+}
