@@ -1,0 +1,20 @@
+Console.WriteLine("           /\\");
+Console.WriteLine("          /  \\");
+Console.WriteLine("         /____\\");
+Console.WriteLine("         |    |");
+Console.WriteLine("         |NASA|");
+Console.WriteLine("         |    |");
+Console.WriteLine("        /| /\\ |\\");
+Console.WriteLine("       /_|/__\\|_\\");
+Console.WriteLine("         /_/\\_\\");
+Console.WriteLine("        /_/  \\_\\");
+Console.WriteLine("         /____\\");
+Console.WriteLine("          /  \\");
+Console.WriteLine("         /_/\\_\\");
+Console.WriteLine("        ¡Despegue inminente!\n");
+
+Console.Write("¿Qué te gustaría o qué harás el 14 de febrero? ");
+string respuesta = Console.ReadLine();
+Console.WriteLine("\n=== Quedarme en mi casa ===");
+Console.WriteLine($"Quedarme en mi casa sin hacer nada si o no?: {respuesta}");
+Console.WriteLine("Consejo de la nave: Siempre avanza sin importar nada");
