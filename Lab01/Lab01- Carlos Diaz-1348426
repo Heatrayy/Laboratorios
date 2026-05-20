@@ -1,0 +1,100 @@
+PARTE 1 – Definición del problema 
+1. Redacción del problema con mis propias palabras: 
+La plataforma virtual de la universidad falla en momentos críticos (exámenes 
+en línea y entregas de tareas), mostrando desconexiones, lentitud y errores al 
+enviar archivos, lo que afecta tanto a estudiantes como a docentes. 
+2. Estado actual: 
+• Fallas frecuentes en la plataforma. 
+• Estrés en estudiantes y sobrecarga en docentes. 
+• No se conoce la causa principal. 
+3. Estado deseado: 
+• Plataforma estable y confiable. 
+• Evaluaciones y entregas sin interrupciones. 
+• Reducción del estrés y mejor experiencia académica. 
+4. Errores comunes al analizar el problema: 
+• Confundir síntomas con causas (ejemplo: pensar que el estrés es el problema 
+en lugar de la falla técnica). 
+• No delimitar el alcance (mezclar problemas de conectividad externa con 
+problemas internos de la plataforma). 
+PARTE 2 – Datos del problema 
+Datos conocidos: 
+o Plataforma usada por estudiantes y docentes. 
+o Fallas en períodos críticos. 
+o Tipos de fallas: desconexiones, lentitud, errores al enviar. 
+Datos faltantes: 
+o Número exacto de usuarios conectados simultáneamente. 
+o Capacidad técnica de los servidores. 
+o Registro de errores internos de la plataforma. 
+Restricciones: 
+o Presupuesto limitado de la universidad. 
+o Dependencia de la infraestructura tecnológica existente. 
+Suposiciones: 
+Las fallas se relacionan con saturación de usuarios o limitaciones técnicas. 
+Los estudiantes y docentes dependen de la plataforma como recurso 
+principal. 
+3. Descomposición del problema 
+Capacidad técnica: ¿La infraestructura soporta el número de usuarios? 
+Diseño de la plataforma: ¿El software tiene errores en procesos críticos (envío de 
+archivos, evaluaciones)? 
+Gestión académica: ¿La forma en que se programan evaluaciones genera picos de 
+uso? 
+Factores externos: ¿La conectividad de los estudiantes influye en los fallos? 
+Impacto humano: ¿Cómo afecta a estudiantes y docentes en su desempeño? 
+PARTE 3 – Descomposición del problema 
+1. Infraestructura tecnológica: ¿Los servidores soportan la carga de usuarios? 
+Importante porque puede ser la causa raíz de la lentitud y desconexiones. 
+2. Procesos internos de la plataforma: ¿El software maneja bien evaluaciones y 
+entregas? 
+Importante porque errores de programación afectan directamente la 
+experiencia. 
+3. Gestión académica: ¿La programación de evaluaciones genera picos de uso? 
+Importante porque la organización puede evitar saturaciones. 
+4. Conectividad externa: ¿Los problemas provienen de internet de los usuarios? 
+Importante porque no todo depende de la universidad; algunos fallos son 
+externos. 
+PARTE 4 – Pensamiento Computacional 
+Análisis: Identificar datos, causas posibles y separar hechos de hipótesis. 
+Diseño: Proponer estrategias para evaluar la plataforma (monitoreo de 
+usuarios, pruebas de carga). 
+Aplicación: Implementar soluciones técnicas y organizativas (mejorar 
+servidores, escalonar evaluaciones). 
+Reflexión: Evaluar si las soluciones reducen fallas y mejoran la experiencia de 
+estudiantes y docentes. 
+PARTE 5 – Pensamiento divergente y convergente 
+1. Posibles causas del problema: 
+Saturación de usuarios simultáneos. 
+Limitaciones de servidores. 
+Errores en el software de la plataforma. 
+Mala gestión de horarios de evaluaciones. 
+Conectividad deficiente de los usuarios. 
+2. Causas más probables: 
+Saturación de usuarios simultáneos: porque las fallas ocurren en períodos críticos. 
+Limitaciones de servidores: porque la infraestructura puede no estar dimensionada 
+para picos de uso. 
+PARTE 6 – Uso guiado de IA 
+1. Prompt usado para analizar el problema (sin soluciones): 
+"Analiza el problema de una plataforma virtual universitaria que presenta fallas 
+en períodos críticos, identificando datos, posibles causas y subproblemas." 
+2. En qué ayudó la IA: 
+Organizó la información de forma estructurada. 
+Permitió descomponer el problema en partes claras. 
+Facilitó el análisis con pensamiento computacional. 
+3. Qué no debe hacer la IA: 
+Tomar decisiones sin supervisión humana. 
+Reemplazar la gestión académica o técnica de la universidad. 
+Parte 7 – ¿Cómo le fue en su primera semana en la carrera? 
+Bien, solo que difícil porque me inscribí en la universidad 2 semanas después 
+de que empezaran las clases oficialmente entonces tengo muchas tareas 
+atrasadas y módulos virtuales y prueba t en completar. 
+¿Cómo se siente? 
+Estresado por todas las tareas y los desvelos que llevo encima  
+¿Le puedo ayudar en algo? 
+Todo bien. 
+Cuénteme porque eligió esta carrera y si tiene alguna duda. 
+Por que me gusto el concepto de ingeniería en sistemas y desde que 
+estaba en básico me llamo la atención y más por la maestría de 
+ciberseguridad y no tengo dudas. 
+¿Quiere hablar de algo? 
+En a veces lo difícil que es tener tareas atrasadas y que no 
+puedes prestar toda la atención a tus cursos o que no puedas 
+estudiar por hacer tareas atrasadas.
